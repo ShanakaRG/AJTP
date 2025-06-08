@@ -1,5 +1,9 @@
 # AJTP
-Official PyTorch implementation of "Asynchronous Joint-based Temporal Pooling for Skeleton-based Action Recognition". The paper is accepted to TCSVT ([Paper](https://ieeexplore.ieee.org/abstract/document/10685538))
+Official PyTorch implementation of two papers 
+
+1. "Joint temporal pooling for improving skeleton-based action recognition". The paper is accepted to DICTA 2023 ([Paper](https://ieeexplore.ieee.org/abstract/document/10410944))  
+
+2. "Asynchronous Joint-based Temporal Pooling for Skeleton-based Action Recognition". The paper is accepted to TCSVT ([Paper](https://ieeexplore.ieee.org/abstract/document/10685538))  
 
 ![learnable_mask1](https://github.com/user-attachments/assets/f2f7292e-b359-4d7c-8568-a47b9801c009)
 
@@ -128,6 +132,20 @@ This repo is based on [CTRGCN](https://github.com/Uason-Chen/CTR-GCN). The data 
 
 Please cite this work if you find it useful
 
+```
+@INPROCEEDINGS{10410944,
+  author={Gunasekara, Shanaka Ramesh and Li, Wanqing and Yang, Jack and Ogunbona, Philip},
+  booktitle={2023 International Conference on Digital Image Computing: Techniques and Applications (DICTA)}, 
+  title={Joint Temporal Pooling for Improving Skeleton-based Action Recognition}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={403-410},
+  keywords={Image recognition;Motion segmentation;Digital images;Dynamics;Benchmark testing;Spatiotemporal phenomena;Human activity recognition;Temporal pooling;Motion intensity;Skeleton Action recognition},
+  doi={10.1109/DICTA60407.2023.00062}}
+
+
+```
 ```
 @ARTICLE{10685538,
   author={Gunasekara, Shanaka Ramesh and Li, Wanqing and Yang, Jack and Ogunbona, Philip O.},
